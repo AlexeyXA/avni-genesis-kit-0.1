@@ -1,0 +1,37 @@
+{
+  "artifacts": [
+    {
+      "path": "agent/agent.py",
+      "role": "source",
+      "sha256": "44866428b2782894e826ac88bdc3af44f2d287373d9fa8c07fe5f2ae80ca1635"
+    },
+    {
+      "path": "acceptance.json",
+      "role": "tests",
+      "sha256": "fd45075e63ce99f31fd7a8cc6c23a739e49d8689b4728982cd817caa7d13f33a"
+    }
+  ],
+  "format": "avni.genome",
+  "format_version": "0.1",
+  "interface": {
+    "input": "json",
+    "output": "json"
+  },
+  "metadata": {
+    "created_by": "avni-genesis-kit/0.1.0"
+  },
+  "organism": {
+    "name": "hello-agent",
+    "version": "0.1.0"
+  },
+  "runtime": {
+    "entrypoint": "agent/agent.py:run",
+    "language": "python",
+    "network": "not_required",
+    "python": ">=3.11"
+  },
+  "secrets": {
+    "package_values": false,
+    "required_env": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format": "avni.acceptance",
+  "format_version": "0.1",
+  "cases": [
+    {
+      "id": "hello-world",
+      "input": {"text": "world"},
+      "expected": {"answer": "HELLO: world"}
+    },
+    {
+      "id": "trim-whitespace",
+      "input": {"text": "  AVNI  "},
+      "expected": {"answer": "HELLO: AVNI"}
+    },
+    {
+      "id": "empty-text",
+      "input": {},
+      "expected": {"answer": "HELLO: "}
+    }
+  ]
+}

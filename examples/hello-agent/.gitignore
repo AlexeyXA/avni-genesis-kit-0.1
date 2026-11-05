@@ -1,0 +1,7 @@
+.avni/keys/private_key.pem
+.avni/reports/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
